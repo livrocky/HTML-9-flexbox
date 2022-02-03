@@ -50,6 +50,10 @@ text-transform: uppercase;
 
 /* band section */
 
+.band-text {
+    text-align: justify;
+}
+
 .band-cards{
     display: flex;
 }
