@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     background-color: #f3f3f3;
 }
@@ -11,6 +16,19 @@ body {
     padding: 10px;
     margin: 10px;
     background-color: rgb(255, 207, 198);
+    /* inline block */
+    display: inline-block;
+    max-width: 30%;
+    min-height: 215px;
+    vertical-align: top;
+
 }
 
+.inline-block-way .box{
+     /* inline block */
+     display: inline-block;
+     max-width: 30%;
+     min-height: 215px;
+     vertical-align: top;
+}
 
