@@ -45,3 +45,7 @@ body {
 .clearfix {
     clear: both;
 }
+
+.good-float a{
+float: right;
+}
