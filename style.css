@@ -2,3 +2,15 @@ body {
     background-color: #f3f3f3;
 }
 
+.container {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.box {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 207, 198);
+}
+
+
