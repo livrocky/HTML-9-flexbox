@@ -19,7 +19,12 @@ body {
 
 }
 
-.box{
+.float-way .box{
+    max-width: 30%;
+    float: left;  
+}
+
+.inline-block-way .box{
      /* inline block */
      display: inline-block;
      max-width: 30%;
@@ -28,11 +33,15 @@ body {
 }
 
 .box-1{
-    max-width: 49%;
+    /* max-width: 49%; */
 }
 .box-2{
-    max-width: 49%;
+    /* max-width: 49%; */
 }
 .box-3{
-    max-width: initial;
+    /* max-width: initial; */
+}
+
+.clearfix {
+    clear: both;
 }
