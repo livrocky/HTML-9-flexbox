@@ -2,11 +2,23 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     background-color: #f3f3f3;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* common css */
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+    /* header  */
 .header {
     display: flex;
     justify-content: space-between;
@@ -14,10 +26,6 @@ body {
     color: white;
 }
 
- a{
-    text-decoration: none;
-    color: inherit;
-}
 
 .main-nav{
 }
