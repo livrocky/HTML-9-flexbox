@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+}
+
+ a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-nav{
+}
+
+.nav-item {
+padding: 12px 24px;
+display: inline-block;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.nav-item:hover{
+    background-color: white;
+    color: #333
+}
+
