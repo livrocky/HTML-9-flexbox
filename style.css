@@ -16,9 +16,10 @@ body {
     padding: 10px;
     margin: 10px;
     background-color: rgb(255, 207, 198);  
+
 }
 
-.inline-block-way .box{
+.box{
      /* inline block */
      display: inline-block;
      max-width: 30%;
@@ -26,3 +27,12 @@ body {
      vertical-align: top;
 }
 
+.box-1{
+    max-width: 49%;
+}
+.box-2{
+    max-width: 49%;
+}
+.box-3{
+    max-width: initial;
+}
