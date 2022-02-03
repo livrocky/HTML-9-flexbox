@@ -63,3 +63,35 @@ text-transform: uppercase;
     margin-bottom: 25px;
 }
 
+.tour-cards-container{
+    background-color: black;
+    display: flex;
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.tour-card{
+    /* padding: 12px 24px; */
+    background-color: white;
+    color: black;
+    width: 30%;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+section.tours-section{
+    background-color: black;
+}
+
+.buy-ticket{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.tour-card-info{
+    padding: 0px 20px 20px 20px;
+    
+}
